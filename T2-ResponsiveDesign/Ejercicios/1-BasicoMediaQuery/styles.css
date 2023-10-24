@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+    div {
+        background-color: yellow;
+        border: 2px solid brown;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div {
+        background-color: red;
+        border: 4px solid yellow;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div {
+        background-color: blue;
+        border: 8px solid green;
+    }
+}
+
+@media print {
+    div {
+        background-color: purple;
+        border: 2px solid blue;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+div {
+    width: 150px;
+    height: 150px;
+}

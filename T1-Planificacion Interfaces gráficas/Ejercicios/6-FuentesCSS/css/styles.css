@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-color: #D9c5c5;
+}
+
+h1 {
+    color: #bf4e6d;
+    font-family: 'Open Sans';
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #1b1f26;
+    font-family: Roboto;
+    font-size: 16px;
+}
+  
+li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #878c61;
+}
+  
+a {
+    text-decoration: none;
+    color: #1b1f26;
+}
+  
+a:hover {
+    color: #a1a680;
+}
